@@ -71,6 +71,28 @@ p{
     height: 60%;
     width: 100%;
 }
+.experience{
+    padding-top: 5%;
+    background: linear-gradient(180deg, rgb(238, 244, 247),  rgb(171, 241, 234));
+    text-align: center;
+    letter-spacing: 3px;
+}
+.expertise{
+    width: 15%;
+    padding: 10px 10px;
+    margin-left: 2%;
+    background: linear-gradient(120deg, rgb(32, 127, 190), rgb(41, 173, 160));
+    font-weight: 600;
+    border-radius: 15px;
+    display: inline-block;
+}
+.experience h2{
+    color: rgb(130, 137, 165);
+    padding-bottom: 3%;
+}
+.expertise p{
+    color: white;
+}
 .inquiry{
     margin: 10% 20%;
     padding: 5% 5%;
@@ -101,7 +123,10 @@ p{
     padding-bottom: 1%;
 }
 .single-contact-link{
-    padding: 5%;
+    padding: 2%;
+}
+.single-contact-link img{
+    width: 5%;
 }
 .our-customers{
     text-align: center;
@@ -138,11 +163,12 @@ p{
     height: 400px;
 }
 #quotes{
-    box-shadow: 10px 20px 40px lightgray;
+    box-shadow: 20px 20px 30px lightgray;
     width: 30%;
     height: 350px;
     border-radius: 10px;
     letter-spacing: 2px;
+    color:  rgb(67, 69, 77);
     font-weight: 100;
     background: white;
 }

@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    text-align: right;
+    height: 60px;
+    margin: 50px;
+}
+/* .nav-links{} */
+.single-nav-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: gray;
+}
+section.content{
+    padding-bottom: 50px;
+    height: 400px;
+}
+.my-name-highlight{
+    background: linear-gradient(180deg, rgb(68, 139, 231), rgb(36, 219, 195));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(120deg, rgb(32, 127, 190), rgb(41, 173, 160));
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+}
+.latest-area{
+    background: rgb(238, 244, 247);
+    height: 600px;
+}
+#latest-head{
+    text-align: center;
+    padding: 50px;
+}
+.single-project{
+    background: white;
+    height: 300px;
+    width: 20%;
+    padding: 1%;
+    margin-left: 8%;
+    float: left;
+    box-shadow: 10px 15px 30px lightgray;
+    border-radius: 20px;
+}
+.single-project img{
+    height: 60%;
+    width: 100%;
+}
+.inquiry{
+    margin: 10% 20%;
+    padding: 5% 5%;
+    background-size: 100% 100%;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inquiry-align{
+    display: inline;
+}
+#inquiry-text{
+    text-align: left;
+    color: white;
+}
+#chat-button{
+    float: right;
+    box-shadow: 1px 3px 80px lightgrey;
+}
+#contact-links{
+    text-align: center;
+    padding-bottom: 5%;
+}
+#contact-links h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(67, 69, 77);
+    padding-bottom: 1%;
+}
+.single-contact-link{
+    padding: 5%;
+}
+.our-customers{
+    text-align: center;
+    background: rgb(238, 244, 247);
+    padding: 2%;
+}
+.our-customers h2{
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.customers{
+    height: 70px;
+    margin: 4%
+}
+.single-customer{
+    background: white;
+    width: 8%;
+    padding: 2%;
+    margin-left: 6%;
+    float: left;
+    box-shadow: 10px 15px 30px lightgray;
+    border-radius: 20px;
+    height: 70%;
+}
+.client-thoughts{
+    padding: 5%;
+    /* background-image: url("images/bg-2.png"); */
+}
+#review{
+    color:rgb(47, 190, 209);
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    height: 400px;
+}
+#quotes{
+    box-shadow: 10px 20px 40px lightgray;
+    width: 30%;
+    height: 350px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    background: white;
+}
+#client-designation{
+    color: rgb(31, 209, 209);
+    font-weight: 600;
+}
+#link-button{
+    margin-top: 10px;
+}
+.link-review-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(120deg, rgb(47, 190, 209), rgb(50, 165, 150));
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    border-radius: 50px;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+    background: rgb(238, 244, 247);
+    margin: auto;
+    padding: 20px;
+}
